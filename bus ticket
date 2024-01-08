@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bus Ticket Booking System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bus Ticket Booking System</h1>
+  </header>
+  <section>
+    <h2>Admin</h2>
+    <form>
+      <h3>Bus Information</h3>
+    </form>
+    <button>Registered Users</button>
+    <button>Manage News</button>
+    <button>Generate Reports</button>
+  </section>
+  <section>
+    <h2>Login</h2>
+    <form>
+      <h3>User Authentication</h3>
+    </form>
+    <form>
+      <h3>Change Password</h3>
+    </form>
+    <form>
+      <h3>Forgot Password</h3>
+    </form>
+  </section>
+  <section>
+    <h2>Registration</h2>
+    <form>
+      <h3>User Registration</h3>
+    </form>
+  </section>
+  <section>
+    <h2>Book Ticket</h2>
+    <form>
+      <h3>Add New Bus Category</h3>
+    </form>
+    <form>
+      <h3>Update Bus Information</h3>
+    </form>
+    <form>
+      <h3>Cancel Booking Ticket</h3>
+    </form>
+  </section>
+  <section>
+    <h2>Comments</h2>
+    <form>
+      <h3>Post Comments</h3>
+    </form>
+  </section>
+  <section>
+    <h2>Report Generation</h2>
+    <form>
+      <h3>Generate Report</h3>
+    </form>
+  </section>
+</body>
+</html>
