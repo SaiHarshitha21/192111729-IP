@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Website</title>
+    <style>
+        /* Add your CSS styling here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #444;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Job Application Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Admin</a></li>
+                <li><a href="#">Director</a></li>
+                <li><a href="#">User</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Admin Section -->
+        <section>
+            <h2>Admin</h2>
+            <ul>
+                <li>Login</li>
+                <li>Approve Director</li>
+                <li>View User</li>
+                <li>View Report</li>
+            </ul>
+        </section>
+
+        <!-- Director Section -->
+        <section>
+            <h2>Director</h2>
+            <ul>
+                <li>Register</li>
+                <li>Login</li>
+                <li>Post Vacancy</li>
+                <li>Image, Description, Contact, etc.</li>
+                <li>View Vacancy</li>
+                <li>View Applied Users</li>
+                <li>Logout</li>
+            </ul>
+        </section>
+
+        <!-- User Section -->
+        <section>
+            <h2>User</h2>
+            <ul>
+                <li>Register</li>
+                <li>Login</li>
+                <li>Search Vacancy</li>
+                <li>Filter by Location Wise, Category</li>
+                <li>Apply for Vacancy</li>
+                <li>Logout</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Job Application Website</p>
+    </footer>
+</body>
+
+</html>
